@@ -39,31 +39,31 @@ export default defineConfig({
           },
         },
 				{
-					label: 'Tipando props e children',
+					label: 'Props e children',
 					autogenerate: {
 						directory: '02-tipando-props-e-children',
 					},
 				},
 				{
-					label: 'Tipando eventos e event handlers',
+					label: 'Eventos e event handlers',
 					autogenerate: {
 						directory: '03-tipando-eventos-e-event-handlers',
 					},
 				},
 				{
-					label: 'Criando componentes flexíveis',
+					label: 'Componentes flexíveis',
 					autogenerate: {
 						directory: '04-criando-componentes-flexiveis',
 					}
 				},
 				{
-					label: 'Criando componentes flexíveis II - TailwindCSS',
+					label: 'Componentes flexíveis II - TailwindCSS',
 					autogenerate: {
 						directory: '05-criando-componentes-flexiveis-ii',
 					}
 				},
 				{
-					label: 'Tipando Hooks',
+					label: 'Hooks',
 					autogenerate: {
 						directory: '06-tipando-hooks',
 					}

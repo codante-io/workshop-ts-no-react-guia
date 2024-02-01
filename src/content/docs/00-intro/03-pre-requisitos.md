@@ -1,9 +1,6 @@
 ---
-title: Repositório do Curso
+title: Pré requisitos
 ---
 
-Como já falei por aqui, vamos usar majoritariamente um repositório de uma aplicação que gera frases motivacionais.
-
-### Link do Repositório
-
-O repositório do exemplo da aula pode ser encontrado **aqui**.
+- Conhecimento básico de React é aconselhável
+- Não é necessário conhecimento em Typescript, mas aconselhável pelo menos uma "ideia" do que seja o framework.

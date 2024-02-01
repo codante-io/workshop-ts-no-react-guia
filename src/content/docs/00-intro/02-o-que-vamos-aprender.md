@@ -41,4 +41,4 @@ Os principais tópicos que iremos ver são
 
 #### 07. Context
 
-Por
+Por fim, vamos adicionar contexto na nossa aplicação e ver como podemos tipá-lo.

@@ -1,16 +1,14 @@
 ---
-title: Transformando um componente em Typescript
+title: Typescript (hoje) é fácil 
 ---
 
-Agora, começando a brincadeira de verdade. Vamos criar nosso primeiro componente typescript. Na verdade, não vamos criar, mas transformar o componente `App.jsx` para `App.tsx`. Vamos então renomear o arquivo.
-
-Mas aí quebra tudo.
+Já deu para perceber que a mudança não foi nada muito drástica entre um componente JS e um componente
 
 ```
 Cannot use JSX unless the '--jsx' flag is provided.ts(17004)
 ```
 
-### Mais um erro. O TS não entende JSX e outros
+### Mais alguns erros: o TS não entende JSX
 
 Precisamos dizer para o compilador typescript que estamos lidando com React e não com javascript convencional.
 pra isso, vamos setar no `tsconfig.json` dentro de `compilerOptions` a propriedade `jsx` com o valor `react-jsx`.
@@ -23,7 +21,7 @@ Vamos aproveitar também e atualizar outras propriedades para deixar nosso códi
     "target": "ES2020",
     "module": "ESNext",
     "esModuleInterop": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Bundler",****
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,

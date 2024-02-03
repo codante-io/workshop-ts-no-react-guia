@@ -9,9 +9,9 @@ Podemos rodar o comando `npm create vite@latest` e seguir os passos. Importante 
 
 Se você ainda não usou o *vite* antes, essa é uma boa oportunidade para aprendê-lo.
 
-### Dependências do Typescript
+### Migrando para TS
 
-Vamos instalar.
+Vamos instalar agora as bibliotecas necessárias para migrarmos nossa aplicação para TS.
 
 ```bash
 npm install typescript @types/react @types/react-dom

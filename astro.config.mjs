@@ -38,6 +38,12 @@ export default defineConfig({
             directory: '01-instalando-ts',
           },
         },
+        {
+          label: 'Brincando um pouco com TS', 
+          autogenerate: {
+            directory: '01a-brincando-com-ts',
+          },
+        },
 				{
 					label: 'Props e children',
 					autogenerate: {

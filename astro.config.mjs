@@ -32,58 +32,60 @@ export default defineConfig({
             directory: '00-intro',
           },
         },
+
         {
           label: 'Instalando TS',
           autogenerate: {
             directory: '01-instalando-ts',
           },
         },
+
         {
-          label: 'Brincando um pouco com TS', 
-          autogenerate: {
-            directory: '01a-brincando-com-ts',
-          },
+          label: 'App de Frases Motivacionais',
+
+          items: [
+            
+            { label: 'Intro à nossa aplicação', link: '/02-app-de-frases-motivacionais' },
+            {
+              label: 'Props e children',
+              autogenerate: {
+                directory: '02-app-de-frases-motivacionais/01-props-e-children',
+              },
+            },
+            {
+              label: 'Eventos e event handlers',
+              autogenerate: {
+                directory: '02-app-de-frases-motivacionais/02-eventos-e-event-handlers',
+              },
+            },
+            {
+              label: 'Componentes flexíveis',
+              autogenerate: {
+                directory: '04-criando-componentes-flexiveis',
+              },
+            },
+            {
+              label: 'Componentes flexíveis II - TailwindCSS',
+              autogenerate: {
+                directory: '05-criando-componentes-flexiveis-ii',
+              },
+            },
+            {
+              label: 'Hooks',
+              autogenerate: {
+                directory: '06-tipando-hooks',
+              },
+            },
+            {
+              label: 'Context',
+              autogenerate: {
+                directory: '07-context',
+              },
+            },
+          ],
         },
-				{
-					label: 'Props e children',
-					autogenerate: {
-						directory: '02-tipando-props-e-children',
-					},
-				},
-				{
-					label: 'Eventos e event handlers',
-					autogenerate: {
-						directory: '03-tipando-eventos-e-event-handlers',
-					},
-				},
-				{
-					label: 'Componentes flexíveis',
-					autogenerate: {
-						directory: '04-criando-componentes-flexiveis',
-					}
-				},
-				{
-					label: 'Componentes flexíveis II - TailwindCSS',
-					autogenerate: {
-						directory: '05-criando-componentes-flexiveis-ii',
-					}
-				},
-				{
-					label: 'Hooks',
-					autogenerate: {
-						directory: '06-tipando-hooks',
-					}
-				},
-				{
-					label: 'Context',
-					autogenerate: {
-						directory: '07-context',
-					}
-				},
-				
       ],
     }),
     tailwind({ applyBaseStyles: false }),
   ],
 });
-

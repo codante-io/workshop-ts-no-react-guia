@@ -1,10 +1,7 @@
 ---
-title: Exercício
+title: Exercício 01
 ---
-
-Sem mais delongas, vamos para o primeiro exercício
-
-## Enunciado
+### Enunciado
 
 Já temos o componente `QuoteCard` - que é um componente JS (vide a extensão `jsx`). Veja que sua responsabilidade é renderizar a frase que ele recebe como props.
 

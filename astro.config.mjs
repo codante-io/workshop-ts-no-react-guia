@@ -61,7 +61,7 @@ export default defineConfig({
             {
               label: 'Componentes flexíveis',
               autogenerate: {
-                directory: '04-criando-componentes-flexiveis',
+                directory: '02-app-de-frases-motivacionais/03-componentes-flexiveis',
               },
             },
             {

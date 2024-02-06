@@ -12,7 +12,7 @@ Em primeiro lugar precisamos pegar a referência desse botão html. Só que ele 
 
 No componente `Button`
 
-```jsx title="src/commponents/Button.tsx"
+```jsx title="src/components/Button.tsx"
 import { ComponentPropsWithRef, forwardRef } from 'react';
 
 type ButtonProps = ComponentPropsWithRef<'button'>;
@@ -88,4 +88,5 @@ export default function HeaderCard({
 }
 ```
 
+Veja que fizemos um `useEffect` para que, ao montar o componente, a aplicação irá focar no botão.
 Maravilha! Resolvemos o exercício!

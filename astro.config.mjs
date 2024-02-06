@@ -7,6 +7,7 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: '/favicon.ico',
       locales: {
         root: {
           label: 'Português',
@@ -67,19 +68,19 @@ export default defineConfig({
             {
               label: 'Componentes flexíveis II - TailwindCSS',
               autogenerate: {
-                directory: '05-criando-componentes-flexiveis-ii',
+                directory: '02-app-de-frases-motivacionais/04-componentes-flexiveis-ii',
               },
             },
             {
               label: 'Hooks',
               autogenerate: {
-                directory: '06-tipando-hooks',
+                directory: '02-app-de-frases-motivacionais/05-hooks',
               },
             },
             {
-              label: 'Context',
+              label: 'Context (exercício extra)',
               autogenerate: {
-                directory: '07-context',
+                directory: '02-app-de-frases-motivacionais/06-context',
               },
             },
           ],

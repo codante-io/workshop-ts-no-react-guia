@@ -2,7 +2,7 @@
 title: Solução 01
 ---
 
-## Tranformando o componente `QuoteCard` em um componente TS
+## Transformando o componente `QuoteCard` em um componente TS
 
 O primeiro passo é transformar o componente em um componente _typescript_. Como nosso projeto inteiro já está configurado como um projeto _typescript_, precisamos apenas mudar a extensão do arquivo para `.tsx`.
 
@@ -24,7 +24,7 @@ A solução mais rápida e direta é tiparmos as props diretamente no parâmetro
 
 #### Tipando na origem
 
-O certo mesmo é "escavarmos" até a origem desses dados e tentar tipá-los lá. Se formos ver, o componente `App` chama a função `fetchQuote`.
+O certo mesmo é "escavarmos" até a origem desses dados e tentar tipar-los lá. Se formos ver, o componente `App` chama a função `fetchQuote`.
 
 Vamos abrir o arquivo `src/lib/services.ts` e tipar o objeto `quote` diretamente na função `fetchQuote()`:
 
@@ -62,7 +62,7 @@ export default function QuoteCard({
 }
 ```
 
-Para entender o código acima, pense que estamos tipasndo o parâmetro `props` da função `QuoteCard`. Sabemos que o parâmetro props é um objeto que quase sempre é desestruturado. Então o tipo que vamos utilizar é:
+Para entender o código acima, pense que estamos tipando o parâmetro `props` da função `QuoteCard`. Sabemos que o parâmetro props é um objeto que quase sempre é desestruturado. Então o tipo que vamos utilizar é:
 
 1. Um objeto (referindo-se a `props`)
 2. Esse objeto possui a chave quote (referindo-se à prop `quote`)

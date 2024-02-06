@@ -46,7 +46,7 @@ function Card({ children }: CardProps) {
 export default Card;
 ```
 
-### O tipo `PropsWithChidlren`
+### O tipo `PropsWithChildren`
 
 Uma outra forma de fazer isso é usar um tipo utilitário que é o `PropsWithChildren`:
 

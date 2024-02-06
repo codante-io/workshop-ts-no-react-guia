@@ -2,7 +2,7 @@
 title: Solução 01
 ---
 
-Essa exercício possui várias partes. Vamos então, parte por parte resolvê-lo.
+Esse exercício possui várias partes. Vamos então, parte por parte, resolvê-lo.
 
 ## Extraindo um componente `Button` e tipando o `children`
 

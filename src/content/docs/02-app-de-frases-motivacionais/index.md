@@ -4,7 +4,9 @@ title: Introdução à nossa aplicação
 
 A partir de agora, para todos os exemplos subsequentes, vamos utilizar nosso **gerador de frases motivacionais**. Ah, ok, tudo bem... eu sei que o exemplo não é dos mais criativos, mas ele é um bom ponto de partida para analisarmos vários conceitos interessantes de TS em uma aplicação react.
 
-Você pode encontrar o repositório com o ponto de partida aqui nesse link.
+Você pode encontrar o repositório com o ponto de partida [aqui nesse link](https://github.com/robertotcestari/codante-ts-no-react-exercicio):
+
+- [https://github.com/robertotcestari/codante-ts-no-react-exercicio](https://github.com/robertotcestari/codante-ts-no-react-exercicio)
 
 Faça o clone e acompanhe o workshop!
 

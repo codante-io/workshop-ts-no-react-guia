@@ -6,4 +6,4 @@ Como já falamos por aqui, vamos usar majoritariamente um repositório de uma ap
 
 ### Link do Repositório
 
-O repositório do exemplo da aula pode ser encontrado **aqui**.
+O repositório do exemplo da aula pode ser encontrado neste link: <https://github.com/robertotcestari/codante-ts-no-react-exercicio>

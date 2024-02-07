@@ -23,7 +23,7 @@ Vamos aproveitar também e atualizar outras propriedades para deixar nosso códi
     "target": "ES2020",
     "module": "ESNext",
     "esModuleInterop": true,
-    "moduleResolution": "Bundler",****
+    "moduleResolution": "Bundler",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,

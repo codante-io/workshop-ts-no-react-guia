@@ -2,6 +2,8 @@
 title: Solução 01
 ---
 
+*Veja a [diff no Github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-props-children-exercicio-1...resolucao-eventos-e-event-handlers-exercico-1)*
+
 ## Extraindo parte do `App` para um `HeaderCard`
 
 Vamos começar criando o arquivo `src/components/HeaderCard.tsx`. Por enquanto vamos colocar alguns tipos apenas para deixarmos o compilador feliz.

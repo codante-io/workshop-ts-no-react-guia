@@ -2,6 +2,8 @@
 title: Solução 02
 ---
 
+*Veja a [diff no Github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-eventos-e-event-handlers-exercico-2...resolucao-componentes-flexiveis)*
+
 ## Fazer com que o botão inicie focado
 
 Um dos casos clássicos de uso de `refs` no React é manipulação de elementos do DOM. Nesse caso, queremos trazer o foco a um elemento específico que é o nosso botão.

@@ -2,6 +2,8 @@
 title: Solução 02
 ---
 
+*Veja a [diff no github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-props-children-exercicio-1...resolucao-eventos-e-event-handlers-exercico-1)*
+
 ## Extraindo um componente `<Card>` genérico
 
 - A primeira coisa é criar o componente `components/Card.tsx`.

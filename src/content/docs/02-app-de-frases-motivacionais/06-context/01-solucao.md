@@ -2,6 +2,8 @@
 title: Solução
 ---
 
+*Veja a [diff no Github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-componentes-flexiveis-ii...resolucao-context)*
+
 ## Criando o Contexto
 
 Vamos criar uma pasta `src/context` onde vamos organizar ali nossos arquivos de contexto.

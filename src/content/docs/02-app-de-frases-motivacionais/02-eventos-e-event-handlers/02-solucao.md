@@ -2,6 +2,8 @@
 title: Solução 02
 ---
 
+*Veja [diff no github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-eventos-e-event-handlers-exercico-1..,resolucao-eventos-e-event-handlers-exercico-2)*
+
 ### Criando o botão
 
 Vamos criar nosso terceiro botão. Mas cuidado, um color picker é um `input` e não um botão!

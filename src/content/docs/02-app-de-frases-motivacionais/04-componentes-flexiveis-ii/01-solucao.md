@@ -2,11 +2,13 @@
 title: Solução
 ---
 
+*Veja a [diff no Github](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/resolucao-componentes-flexiveis...resolucao-componentes-flexiveis-ii)*
+
 ## Qual é o problema que estamos resolvendo?
 
 Se você ainda não percebeu, nosso componente está flexível em praticamente todos aspectos de um botão html: todas os atributos esperados vêm tipados e prontos.
 
-Entretanto, como estamos aqui usando Tailwind, será comum a alteração dos `classNames`. Vamos tentar fazer isso e ver o que acontece. Eu quero que o primeiro botão fique com o fundo da cor `rebeccapurple` (se não me engano é a última cor nomeada - _named colors_ - adicionada no CSS).
+Entretanto, como estamos aqui usando Tailwind, será comum a alteração dos `classNames`. Vamos tentar fazer isso e ver o que acontece. Eu quero que o primeiro botão fique com o fundo da cor `rebeccapurple` (se não me engano é a última cor nomeada - *named colors* - adicionada no CSS).
 
 Fazer isso alterando a prop style é uma maravilha e fácil:
 
@@ -14,7 +16,7 @@ Fazer isso alterando a prop style é uma maravilha e fácil:
 
 Mas se fizermos isso usando tailwindCSS vai dar erro.
 
-É claro, o `className` no componente está _hard-coded_, e de duas uma:
+É claro, o `className` no componente está *hard-coded*, e de duas uma:
 
 - Se o spread do `{...props}` estiver antes do `className`, nada vai acontecer - e nenhum estilo vai ser aplicado.
 - Se o spread do `{...props}` estiver depois do `className`, tudo vai ser sobrescrito e o único estilo vai ser o `backgroundColor` que você passou!
@@ -23,7 +25,7 @@ Mas se fizermos isso usando tailwindCSS vai dar erro.
 
 ### Uma solução não definitiva
 
-a solução intuitiva (e que já usei várias vezes) é receber o `classNames` como props e adicioná-lo à string de classNames usando _template strings_:
+a solução intuitiva (e que já usei várias vezes) é receber o `classNames` como props e adicioná-lo à string de classNames usando *template strings*:
 
 ```jsx title="src/components/Button.tsx" ins={3-5,8,12}
 import { ComponentPropsWithRef, forwardRef } from 'react';

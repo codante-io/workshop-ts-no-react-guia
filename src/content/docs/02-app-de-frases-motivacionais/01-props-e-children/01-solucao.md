@@ -2,23 +2,25 @@
 title: Solução 01
 ---
 
+*Se você quiser ver a diff da solução, acesse [esse link](https://github.com/robertotcestari/codante-ts-no-react-exercicio/compare/main...resolucao-props-children-exercicio-1)*
+
 ## Transformando o componente `QuoteCard` em um componente TS
 
-O primeiro passo é transformar o componente em um componente _typescript_. Como nosso projeto inteiro já está configurado como um projeto _typescript_, precisamos apenas mudar a extensão do arquivo para `.tsx`.
+O primeiro passo é transformar o componente em um componente *typescript*. Como nosso projeto inteiro já está configurado como um projeto *typescript*, precisamos apenas mudar a extensão do arquivo para `.tsx`.
 
 ### Tipando a prop recebida
 
-Assim que a extensão é alterada um erro já aparece na tela (se você não enxergou, só rodar `npx tsc` para rodar o _type-checking_ do _typescript_):
+Assim que a extensão é alterada um erro já aparece na tela (se você não enxergou, só rodar `npx tsc` para rodar o *type-checking* do *typescript*):
 
 ```bash title="Erro typescript"
 Binding element 'quote' implicitly has an 'any' type.ts(7031)
 ```
 
-Esse erro ocorre porque o _typescript_ não gosta de any implícito - se você não disser qual é o tipo dessa prop, ele irá inferir um `any`. E _sempre_ devemos tentar evitar `any`s em nosso já que eles não trazem informações e deixam nossa base de código mais frágil.
+Esse erro ocorre porque o *typescript* não gosta de any implícito - se você não disser qual é o tipo dessa prop, ele irá inferir um `any`. E *sempre* devemos tentar evitar `any`s em nosso já que eles não trazem informações e deixam nossa base de código mais frágil.
 
 Aqui temos já uma decisão a fazer: como tipar essa prop?
 
-### Tipando _inline_
+### Tipando *inline*
 
 A solução mais rápida e direta é tiparmos as props diretamente no parâmetro da função do componente. Podemos dar um `console.log` e ver que um `quote` é feito de `author`, `id` e `quote`.
 
@@ -43,7 +45,7 @@ export async function fetchQuote() {
 
 #### Tipando a Prop
 
-Pronto, agora que o `quote` já está devidamente tipado (coloque o mouse em cima da variável `quote` dentro do componente `App.js` para verificar), vamos tipar _inline_ no componente `QuoteCard.tsx`.
+Pronto, agora que o `quote` já está devidamente tipado (coloque o mouse em cima da variável `quote` dentro do componente `App.js` para verificar), vamos tipar *inline* no componente `QuoteCard.tsx`.
 
 ```typescript {1-5}
 export default function QuoteCard({
@@ -68,7 +70,7 @@ Para entender o código acima, pense que estamos tipando o parâmetro `props` da
 2. Esse objeto possui a chave quote (referindo-se à prop `quote`)
 3. Quote é um outro objeto com as chaves `author`, `quote`, e `id`.
 
-Em alguns casos tipar _inline_ é a opção mais rápida e prática. Mas pode tornar nossos componentes difíceis de serem lidos. Por isso vamos optar por tipar de outra forma.
+Em alguns casos tipar *inline* é a opção mais rápida e prática. Mas pode tornar nossos componentes difíceis de serem lidos. Por isso vamos optar por tipar de outra forma.
 
 #### Extraindo o tipo `Quote` para um arquivo à parte
 
@@ -88,7 +90,7 @@ Agora vamos importá-lo tanto no arquivo `src/lib/services.ts` como no component
 
 ### Tipando com `interface`
 
-Tipamos de forma _inline_ as props, mas poderíamos fazer isso com interface:
+Tipamos de forma *inline* as props, mas poderíamos fazer isso com interface:
 
 ```jsx ins={3-5,7}
 import { Quote } from '../lib/types';
@@ -111,7 +113,7 @@ export default function QuoteCard({ quote }: QuoteCardProps) {
 
 ### Tipando com `type`
 
-Da mesma forma, poderíamos fazer com um _type alias_
+Da mesma forma, poderíamos fazer com um *type alias*
 
 ```jsx ins={7-9}
 import { Quote } from '../lib/types';
@@ -140,7 +142,7 @@ export default function QuoteCard({ quote }: QuoteCardProps) {
 
 Essa provavelmente é a pergunta mais formulada no universo Typescript e a resposta é: qualquer um! Existem algumas pequenas diferenças (que provavelmente não definirão a escolha) entre as duas formas, mas basicamente é uma questão de escolha.
 
-Eu particularmente uso _type alias_ pela versatilidade em criar tipos que vão além de objetos. Mas é uma preferência pessoal.
+Eu particularmente uso *type alias* pela versatilidade em criar tipos que vão além de objetos. Mas é uma preferência pessoal.
 
 ## Transformando o componente App em componente TS
 
@@ -168,4 +170,4 @@ Um outro erro ainda vai persistir que é o de resolver as importações. Para is
 - Arrumar as importações no `main.jsx`
 - Transformar o `main.jsx` em `main.tsx`
 - Ajustar importações no `index.html`
-- Adicionar um _"non null assertion"_ no `main.tsx`
+- Adicionar um *"non null assertion"* no `main.tsx`

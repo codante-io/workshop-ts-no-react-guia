@@ -4,6 +4,8 @@ title: Exercício
 
 ### Enunciado
 
+*Use [essa branch](https://github.com/robertotcestari/codante-ts-no-react-exercicio/tree/resolucao-componentes-flexiveis-ii) para iniciar o exercício.*
+
 Vamos treinar um pouco de React (e de quebra Typescript). Vamos adicionar um contexto à nossa aplicação.
 
 :::tip[Enunciado do Exercício]

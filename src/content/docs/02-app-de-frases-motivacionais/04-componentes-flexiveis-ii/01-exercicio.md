@@ -2,6 +2,8 @@
 title: Exercício
 ---
 
+*Use [essa branch](https://github.com/robertotcestari/codante-ts-no-react-exercicio/tree/resolucao-componentes-flexiveis) para iniciar o exercício.*
+
 ### Enunciado
 
 Ufa, já andamos bastante até agora. Mas se formos notar, mudar individualmente os estilos não é uma tarefa tão simples assim - especialmente porque estamos utilizando o Tailwind CSS

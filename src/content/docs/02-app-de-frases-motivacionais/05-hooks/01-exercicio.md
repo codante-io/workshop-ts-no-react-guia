@@ -2,6 +2,8 @@
 title: Exercício
 ---
 
+*Use [essa branch](https://github.com/robertotcestari/codante-ts-no-react-exercicio/tree/resolucao-componentes-flexiveis-ii) para iniciar o exercício.*
+
 ### Enunciado
 
 :::tip[Enunciado do Exercício]

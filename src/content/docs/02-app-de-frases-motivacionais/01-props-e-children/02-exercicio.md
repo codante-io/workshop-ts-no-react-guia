@@ -1,6 +1,9 @@
 ---
 title: Exercício 02
 ---
+
+*Use [essa branch](https://github.com/robertotcestari/codante-ts-no-react-exercicio/tree/main) para iniciar o exercício.*
+
 ### Enunciado
 
 Já temos o componente `QuoteCard`. Vamos agora criar um componente `Card` genérico, cuja responsabilidade é apenas a UI do `QuoteCard` (que está representada na tag `<article>`).

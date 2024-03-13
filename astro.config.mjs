@@ -14,7 +14,7 @@ export default defineConfig({
           lang: 'pt-BR',
         },
       },
-      title: 'Typescript no React',
+      title: 'Next Auth',
       editLink: {
         baseUrl:
           'https://github.com/codante-io/workshop-ts-no-react-guia/edit/main/',
@@ -35,55 +35,17 @@ export default defineConfig({
         },
 
         {
-          label: 'Instalando TS',
+          label: 'Intro ao NextAuth',
           autogenerate: {
-            directory: '01-instalando-ts',
+            directory: '01-intro-nextauth',
           },
         },
 
         {
-          label: 'App de Frases Motivacionais',
-
-          items: [
-            
-            { label: 'Intro à nossa aplicação', link: '/02-app-de-frases-motivacionais' },
-            {
-              label: 'Props e children',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/01-props-e-children',
-              },
-            },
-            {
-              label: 'Eventos e event handlers',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/02-eventos-e-event-handlers',
-              },
-            },
-            {
-              label: 'Componentes flexíveis',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/03-componentes-flexiveis',
-              },
-            },
-            {
-              label: 'Componentes flexíveis II - TailwindCSS',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/04-componentes-flexiveis-ii',
-              },
-            },
-            {
-              label: 'Hooks',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/05-hooks',
-              },
-            },
-            {
-              label: 'Context (exercício extra)',
-              autogenerate: {
-                directory: '02-app-de-frases-motivacionais/06-context',
-              },
-            },
-          ],
+          label: 'Login com Credenciais',
+          autogenerate: {
+            directory: '02-login-com-credenciais',
+          },
         },
       ],
     }),

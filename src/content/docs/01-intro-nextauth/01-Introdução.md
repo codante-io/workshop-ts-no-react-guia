@@ -1,5 +1,5 @@
 ---
-title: Criando um projeto Vite
+title: O que é o NextAuth
 description: Boas vindas ao workshop de Typescript no React
 ---
 
